@@ -2,7 +2,8 @@
 # Run it, read the last line, then fix it.
 
 class Record:
-    def status(percent):    # this parameter should be self
+    def status(self, percent):    # this parameter should be self
+        self.percent = percent
         return percent
 
 r = Record()
