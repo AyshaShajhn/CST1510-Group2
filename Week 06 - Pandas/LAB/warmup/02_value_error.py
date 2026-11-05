@@ -7,4 +7,4 @@ df = pd.DataFrame({
     "label": ["R-001", "R-002", "R-003"],
     "value": [87, 120, 95]
 })
-print(df) 
+print(df)  
