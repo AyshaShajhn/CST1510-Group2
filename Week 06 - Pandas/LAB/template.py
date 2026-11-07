@@ -37,6 +37,6 @@ df.to_csv("records_output.csv", index=False)
 import matplotlib.pyplot as plt
 
 df["status"].value_counts().plot(kind='bar', title='Count per Status')
-plt.savefig("status_counts.png")
+plt.savefig("counts_per_status.png")
 plt.show()
 
